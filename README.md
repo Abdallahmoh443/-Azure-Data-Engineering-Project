@@ -28,7 +28,7 @@ This project demonstrates how to build a data pipeline specifically for an e-com
 
 The architecture of the data pipeline consists of the following components:
 
-1. **Source**: Data is ingested from various e-commerce sources (e.g., databases, APIs).
+1. **Source**: Data is ingested from various e-commerce sources.
 2. **Azure Data Factory**: Manages data movement from the source to Azure Data Lake Gen2.
 3. **Azure Data Lake Storage Gen2**: Stores the raw data.
 4. **Azure Databricks**: Performs data cleaning and transformation, including operations like filtering out duplicates, handling missing values, and restructuring data for analysis.
