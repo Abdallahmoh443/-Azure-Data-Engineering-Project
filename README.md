@@ -34,5 +34,7 @@ The architecture of the data pipeline consists of the following components:
 4. **Azure Databricks**: Performs data cleaning and transformation, including operations like filtering out duplicates, handling missing values, and restructuring data for analysis.
 5. **Azure Data Lake Storage Gen2**: Stores the final transformed data for easy access by analytics tools.
 
-![Architecture Diagram](images/Azure%20data%20factory%20pipline.png)
+
 ![Architecture Diagram](images/project%20overview.png)
+![Architecture Diagram](images/Azure%20data%20factory%20pipline.png)
+
