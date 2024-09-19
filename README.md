@@ -1,25 +1,22 @@
-# Data Pipeline Project
+# Data Pipeline Project for E-Commerce Platform
 
 ## Overview
 
-This project demonstrates how to build a data pipeline that ingests data from a source using Azure Data Factory, performs cleaning and transformations using Azure Databricks with PySpark, and stores the transformed data in Azure Data Lake Storage Gen2.
+This project demonstrates how to build a data pipeline specifically for an e-commerce platform. It ingests data from various sources using Azure Data Factory, performs cleaning and transformations using Azure Databricks with PySpark, and stores the transformed data in Azure Data Lake Storage Gen2.
 
 ## Table of Contents
 
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Architecture](#architecture)
-- [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Features
 
-- Ingest data from various sources (e.g., SQL Database, Blob Storage).
+- Ingest data from various e-commerce sources (e.g., sales records, customer data, product information,target sales).
 - Store raw data in Azure Data Lake Storage Gen2.
-- Clean and transform data using PySpark on Azure Databricks.
-- Store transformed data back into Azure Data Lake Storage Gen2.
+- Clean and transform data to enhance analysis (e.g., filtering, aggregating).
+- Store transformed data in Azure Data Lake Storage Gen2 for downstream analytics and reporting.
 
 ## Technologies Used
 
@@ -31,10 +28,10 @@ This project demonstrates how to build a data pipeline that ingests data from a 
 
 The architecture of the data pipeline consists of the following components:
 
-1. **Source**: Data is ingested from the defined source.
+1. **Source**: Data is ingested from various e-commerce sources (e.g., databases, APIs).
 2. **Azure Data Factory**: Manages data movement from the source to Azure Data Lake Gen2.
 3. **Azure Data Lake Storage Gen2**: Stores the raw data.
-4. **Azure Databricks**: Performs data cleaning and transformation.
-5. **Azure Data Lake Storage Gen2**: Stores the final transformed data.
+4. **Azure Databricks**: Performs data cleaning and transformation, including operations like filtering out duplicates, handling missing values, and restructuring data for analysis.
+5. **Azure Data Lake Storage Gen2**: Stores the final transformed data for easy access by analytics tools.
 
 ![Architecture Diagram](path/to/architecture_diagram.png)
